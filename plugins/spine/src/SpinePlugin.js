@@ -1033,7 +1033,7 @@ var SpinePlugin = new Class({
             this.sceneRenderer.dispose();
         }
 
-        this.pluginManager.removeGameObject('spine', true, true);
+        //this.pluginManager.removeGameObject('spine', true, true);
 
         this.pluginManager = null;
         this.game = null;
